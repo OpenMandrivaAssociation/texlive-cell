@@ -1,3 +1,9 @@
+# revision 20756
+# category Package
+# catalog-ctan /macros/latex/contrib/cell
+# catalog-date 2010-12-15 11:00:48 +0100
+# catalog-license pd
+# catalog-version 1.28/2.03
 Name:		texlive-cell
 Version:	1.28.2.03
 Release:	1
@@ -38,6 +44,7 @@ supporting LaTeX package is also provided.
 %{_texmfdistdir}/bibtex/bst/cell/cell.bst
 %{_texmfdistdir}/tex/latex/cell/cell.sty
 %doc %{_texmfdistdir}/doc/latex/cell/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ supporting LaTeX package is also provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
