@@ -46,3 +46,18 @@ supporting LaTeX package is also provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.28.2.03-2
++ Revision: 750048
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.28.2.03-1
++ Revision: 718025
+- texlive-cell
+- texlive-cell
+- texlive-cell
+- texlive-cell
+- texlive-cell
+
