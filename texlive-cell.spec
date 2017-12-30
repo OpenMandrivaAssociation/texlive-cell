@@ -5,8 +5,8 @@
 # catalog-license pd
 # catalog-version 1.28/2.03
 Name:		texlive-cell
-Version:	1.28.2.03
-Release:	10
+Version:	20101212
+Release:	1
 Summary:	Bibliography style for Cell
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cell
