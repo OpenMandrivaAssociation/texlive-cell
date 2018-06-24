@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version 1.28/2.03
 Name:		texlive-cell
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Bibliography style for Cell
 Group:		Publishing
