@@ -1,6 +1,6 @@
 Name:		texlive-cell
 Version:	42428
-Release:	1
+Release:	2
 Summary:	Bibliography style for Cell
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cell
